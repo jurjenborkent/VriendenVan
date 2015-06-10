@@ -8,7 +8,7 @@
 
   <body>
 	<?php contact(); ?> 
-		<?php include ("includes/social_footer_js.php"); ?>
+		<?php include ("includes/footer.php"); ?>
 	
   </body>
 </html>
