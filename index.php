@@ -8,7 +8,8 @@
 
   <body>
 	<?php getContent(); ?>
-	<?php include ("includes/social_footer_js.php"); ?>
-	
+	<?php contact(); ?> 
+	<?php include ("includes/footer.php"); ?>
+
   </body>
 </html>

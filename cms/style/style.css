@@ -1,0 +1,184 @@
+body {
+	width: 100%;
+	height: auto;
+	background-color: #1d1d1d;
+	margin: 0;
+	padding: 0;
+	font-family: 'Arial';
+	font-size: 10pt;
+}
+
+img {
+	border: 0;
+}
+
+h1 {
+	font-size: 18pt;
+	font-weight: bold;
+	color: #1d1d1d;
+	margin: 0;
+	padding: 0;
+}
+
+h2 {
+	padding: 0;
+	margin: 0;
+	font-size: 14pt;
+	color:#009797;
+}
+
+p {
+	font-size: 10pt;
+	margin: 0;
+	padding: 0;
+	color: #000000;
+}
+
+a {
+	text-decoration: underline;
+	color: #009797;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #00DFDF;
+}
+
+.wrapper {
+	width: 980px;
+	height: auto;
+	margin: auto;
+}
+
+.footer {
+	color: #FFFFFF;
+}
+
+#page {
+	float: left;
+	width: 100%;
+	height: auto;
+	margin-bottom: 20px;
+}
+
+#content {
+	float: left;
+	width: 725px;
+	height: auto;
+	padding-left: 10px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	margin-left: 5px;
+	
+	background: #FFFFFF;
+}
+
+/*Header*/
+#header {
+	background: #FFFFFF;
+	height: 200px;
+	border-top: 15px solid #1d1d1d;
+	border-bottom: 15px solid #1d1d1d;
+}
+
+.header-empty {
+	margin-left: 30px;
+	float: left;
+	height: 100%;
+	width: 130px;
+}
+
+.linev {
+	float: left;
+	height: 100%;
+	width: 60px;
+	border-right: 5px solid #1d1d1d;
+}
+
+.header-logo {
+	height: 160px;
+	float: left;
+	padding-left: 30px;
+	padding-top: 20px;
+}
+
+/*Menu*/
+#menu {
+	float: left;
+	width: 240px;
+	height: auto;
+	padding-bottom: 50px;
+	background: #FFFFFF;
+	
+}
+
+.menu-title {
+	width: 240px;
+	height: 35px;
+	padding-top: 15px;
+	background-color: #009797;
+	color: #FFFFFF;
+	display: inline-block;
+	font-size: 12pt;
+	text-decoration: underline;
+	font-weight: bold;
+	text-align: center;
+	border-bottom: solid black 1px;
+}
+
+.menu-item-title {
+	width: 240px;
+	height: 25px;
+	padding-top: 5px;
+	color: #1d1d1d;
+	background: #B4B4B4;
+	display: inline-block;
+	font-size: 12pt;
+	text-decoration: underline;
+	font-weight: bold;
+	text-align: center;
+	border-bottom: solid black 1px;
+}
+
+.menu-item {
+	width: 240px;
+	height: 25px;
+	padding-top: 5px;
+	color: #1d1d1d;
+	background: #ffffff;
+	display: inline-block;
+	font-size: 12pt;
+	text-align: center;
+	border-bottom: solid #1d1d1d 1px;
+}
+
+.active, .menu-item:hover, .menu-item-title:hover {
+	background-color: #009797;
+	color: #FFFFFF;
+}
+
+/* PAGES */
+
+.editimg {
+	float:left;
+}
+
+textarea {
+	width: 370px;
+	height: 250px;
+	padding: 5px;
+}
+
+.wysiwyg {
+	width: 97%;
+}
+
+.goback {
+	float: right;
+	width: 145px;
+	margin-right: 10px;
+}
+
+.antispam {
+	display: none;
+}
