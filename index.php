@@ -1,4 +1,4 @@
-<?php include ("includes/functions.php"); ?>
+<?php include ("cms/functions.php"); ?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -6,9 +6,7 @@
    <?php include ("includes/head.php");	?> 
   </head>
 
-  <body>
-	<?php getContent(); ?>
-	<?php contact(); ?> 
+	<?php displayNewsletter(); ?> 
 	<?php include ("includes/footer.php"); ?>
 
   </body>

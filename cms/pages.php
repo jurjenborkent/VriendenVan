@@ -1,6 +1,4 @@
 <?php 
-session_start();
-
 include("functions.php"); 
 
 ?>
@@ -23,10 +21,10 @@ include("functions.php");
 
 				<div id="content">
 					
-	 <?php 
-	 pages();
-	 
-	 ?>
+				 <?php 
+				 pages();
+				 
+				 ?>
 	
 
 	

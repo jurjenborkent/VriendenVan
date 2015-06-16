@@ -1,4 +1,4 @@
-<?php include ("includes/functions.php"); ?>
+<?php include ("cms/functions.php"); ?>
 
 <!DOCTYPE html>
 <html lang="en">

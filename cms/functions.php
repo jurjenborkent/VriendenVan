@@ -74,8 +74,20 @@ function pages() {
 			echo '<META HTTP-EQUIV="Refresh" CONTENT="0">';
 
 		}
+	} else {
+			$query = mysqli_query($conn, "SELECT * FROM pages order by id") or die(mysqli_error($conn));
+			echo '<table>';
+			
+			while ($post = mysqli_fetch_assoc($query)) {
+				echo '<tr><td width="300"><a href="pages.php?id=' . $post['id'] .'" >' . $post['titel'] . '</a></td> <td><a href="../' . $location . 'index.php?id=' . $post['id'] . '" target="_blank">Bekijk deze pagina</a><br></td></tr>';
+
+			}
+			echo '</table>';
+
+		}
+
 	} 
-}
+
 
 function imageUpload() {
 
@@ -362,5 +374,15 @@ function contact() {
 			</form>
 				</p>';
 
+}
+
+function displayNewsletter() {
+			$directory = 'nieuwsbrieven/';
+			foreach (glob($directory.'*.*') as $file) {
+			$string = $file;
+			$check = "<INPUT TYPE=\"checkbox\" NAME=\"checkbox[]\" VALUE=\"" . $file . "\">";
+
+			echo " <tr><td>" . str_replace($directory, "", $string) . "</td><td>" . $check . "</td></tr>";
+		}
 }
 ?>
